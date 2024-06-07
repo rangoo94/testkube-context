@@ -12,7 +12,7 @@ fi
 
 BIN_PATH=/usr/bin
 
-wget https://raw.githubusercontent.com/rangoo94/testkube-context/main/testkube-context.sh > $BIN_PATH/tkc
+wget -O $BIN_PATH/tkc https://raw.githubusercontent.com/rangoo94/testkube-context/main/testkube-context.sh
 chmod +x $BIN_PATH/tkc
 
 echo "$ tkc"
