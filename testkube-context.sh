@@ -1,5 +1,7 @@
 #!/bin/sh
 
+set -e
+
 TK_DIR="$HOME/.testkube"
 
 CFG_PATH="$TK_DIR/config.json"
