@@ -10,7 +10,7 @@ if ! [[ -x "$(command -v wget)" ]]; then
   exit 1
 fi
 
-BIN_PATH=/usr/bin
+BIN_PATH=/usr/local/bin
 
 wget -O $BIN_PATH/tkc https://raw.githubusercontent.com/rangoo94/testkube-context/main/testkube-context.sh
 chmod +x $BIN_PATH/tkc
